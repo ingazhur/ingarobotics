@@ -1,0 +1,58 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        <div style="text-align: center;">
+            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        </div>
+
+        <div style="max-width: calc(var(--main-width) + var(--gap) * 2);">
+            <article class="post-single">
+                <div class="post-content">
+                    {{ with site.GetPage "headline.md" }}{{ .Content }}{{ end }}
+                </div>
+            </article>
+
+            <div style="text-align: center;">
+                {{- with .buttons }}
+                <div class="buttons">
+                    {{- range . }}
+                    <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}" target="_blank" role="button">
+                        <span class="button-inner">
+                            {{- if .surprise}}
+                                <span class="surprise">
+                                    <img src="img/surprise.gif" class="surprise-image" alt="">
+                                </span>
+                            {{- end }}
+                            {{ .name }}
+                            {{- if (findRE "://" .url) }}&nbsp;
+                            <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14L21 3"></path>
+                            </svg>
+                            {{- end }}
+                        </span>
+                    </a>
+                    {{- end }}
+                </div>
+                {{- end }}
+            </div>
+        </div>
+
+        <main class="main" style="max-width: calc(var(--main-width) + var(--gap) * 2);">
+            <article class="post-single">
+                <div class="post-content">
+                    {{ with site.GetPage "about/_index.md" }}{{ .Content }}{{ end }}
+                </div>
+            </article>
+            <div style="text-align: center;">
+                {{- partial "social_icons.html" site.Params.socialIcons -}}
+            </div>
+        </main>
+
+        
+    </div>
+    {{- end }}
+</div>

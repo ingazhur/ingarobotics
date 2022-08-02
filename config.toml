@@ -1,0 +1,59 @@
+baseURL = 'ingarobotics.com'
+languageCode = 'en-us'
+title = 'Inga Zhuravleva'
+theme = ['PaperMod']
+
+[params]
+    defaultTheme = 'light'
+
+[params.profileMode]
+    enabled = true
+    title = "Inga Zhuravleva"
+    subtitle = "Rising junior at UC Berkeley studying EECS"
+    imageUrl = "img/hello.gif"
+    imageHeight = 500
+    imageWidth = 500
+
+[[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/ingazhur'
+
+[[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/inga-zhuravleva/'
+
+[[params.socialIcons]]
+    name = 'twitter'
+    url = 'https://twitter.com/ingarobotics'
+
+[[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:ing4@berkeley.edu'
+
+### navigation links setup
+
+[[params.profileMode.buttons]]
+    name = 'projects'
+    url = '/projects'
+    surprise = false
+
+[[params.profileMode.buttons]]
+    name = 'resume'
+    url = 'https://drive.google.com/file/d/1uG-6wK-Mja-Z6eqce_iOcE_Yiwm3wo59/view?usp=sharing'
+    surprise = false
+
+[[params.profileMode.buttons]]
+    name = 'surprise'
+    url = 'img/surprise.gif'
+    surprise = true
+
+### menu setup
+[menu]
+[[menu.main]]
+    name = 'projects'
+    url = '/projects'
+    weight = -99
+[[menu.main]]
+    name = 'resume'
+    url = 'https://drive.google.com/file/d/1uG-6wK-Mja-Z6eqce_iOcE_Yiwm3wo59/view?usp=sharing'
+    weight = -96
