@@ -6,20 +6,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>My New Hugo Site</title>
+<title>Inga Zhuravleva</title>
 
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://example.org/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.8b523f1730c922e314350296d83fd666efa16519ca136320a93df674d00b6325.css" integrity="sha256-i1I/FzDJIuMUNQKW2D/WZu&#43;hZRnKE2MgqT32dNALYyU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="http://example.org/safari-pinned-tab.svg">
+<link rel="canonical" href="/">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+<link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cc1f7ed27a6d1edfc35899ddede480321a3189135307e8aacebf1a7d9b68b7a5.css" integrity="sha256-zB9&#43;0nptHt/DWJnd7eSAMhoxiRNTB&#43;iqzr8afZtot6U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://example.org/index.xml">
+<link rel="alternate" type="application/rss+xml" href="/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -28,53 +34,25 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript><meta property="og:title" content="My New Hugo Site" />
+</noscript><meta property="og:title" content="Inga Zhuravleva" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/" />
+<meta property="og:url" content="/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My New Hugo Site"/>
+<meta name="twitter:title" content="Inga Zhuravleva"/>
 <meta name="twitter:description" content=""/>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "My New Hugo Site",
-  "url": "http://example.org/",
+  "name": "Inga Zhuravleva",
+  "url": "/",
   "description": "",
-  "thumbnailUrl": "http://example.org/favicon.ico",
+  "thumbnailUrl": "/favicon.ico",
   "sameAs": [
-      
+      "https://github.com/ingazhur", "https://www.linkedin.com/in/inga-zhuravleva/", "https://twitter.com/ingarobotics", "mailto:ing4@berkeley.edu"
   ]
 }
 </script>
@@ -84,10 +62,6 @@
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
@@ -95,7 +69,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://example.org/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="/" accesskey="h" title="Inga Zhuravleva (Alt + H)">Inga Zhuravleva</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -120,14 +94,147 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="/projects" title="projects">
+                    <span>projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/file/d/1uG-6wK-Mja-Z6eqce_iOcE_Yiwm3wo59/view?usp=sharing" title="resume">
+                    <span>resume</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main"><div class="profile">
+    <div class="profile_inner">
+        <div style="text-align: center;">
+            <img draggable="false" src="/img/hello.gif" alt="profile image" title=""
+                height="500" width="500" />
+        </div>
+
+        <div style="max-width: calc(var(--main-width) + var(--gap) * 2);">
+            <article class="post-single">
+                <div class="post-content">
+                    <p>My name is Inga, and I am a rising junior at UC Berkeley studying Electrical Engineering &amp; Computer Science. I am a hardware hacker curious about wearable devices, machine learning, and the future of human-computer interaction using brain-computer interfaces.</p>
+<p>I was born and raised in Russia, but I moved to the United States right in the middle of high school. Having lived in a cradle of Russian cosmonautics, I&rsquo;ve been visiting the mission control center, museums of space history, and pavilions with real-sized rockets since young age. This sparked my interest in engineering early on, and I keep fueling it by tinkering with electronics and engaging in <a href="/projects">hardware/software projects</a>.</p>
+
+                </div>
+            </article>
+
+            <div style="text-align: center;">
+                <div class="buttons">
+                    <a class="button" href="/projects" rel="noopener" title="projects" target="_blank" role="button">
+                        <span class="button-inner">
+                            projects
+                        </span>
+                    </a>
+                    <a class="button" href="https://drive.google.com/file/d/1uG-6wK-Mja-Z6eqce_iOcE_Yiwm3wo59/view?usp=sharing" rel="noopener" title="resume" target="_blank" role="button">
+                        <span class="button-inner">
+                            resume&nbsp;
+                            <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14L21 3"></path>
+                            </svg>
+                        </span>
+                    </a>
+                    <a class="button" href="img/surprise.gif" rel="noopener" title="surprise" target="_blank" role="button">
+                        <span class="button-inner">
+                                <span class="surprise">
+                                    <img src="img/surprise.gif" class="surprise-image" alt="">
+                                </span>
+                            surprise
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <main class="main" style="max-width: calc(var(--main-width) + var(--gap) * 2);">
+            <article class="post-single">
+                <div class="post-content">
+                    <h2 id="currently">Currently..</h2>
+<ul>
+<li>🏫 Studying at UC Berkeley with a major in Electrical Engineering &amp; Computer Science (graduating May 2024)</li>
+<li>🛠️ Hardware engineering intern at Amazon Lab 126 [Summer 2022 - present]</li>
+<li>🧠 Leading Devices division at <a href="https://neurotech.berkeley.edu/">Neurotech@Berkeley</a> to explore new ways to interact with technology using non-invasive BCIs [Spring 2022 - present]</li>
+<li>🤖 Exploring machine learning with <a href="https://ml.berkeley.edu/">ML@Berkeley</a> [Spring 2022 - present]</li>
+<li>💻 Organizing the largest collegiate hackathon <a href="https://calhacks.io/">Cal Hacks</a> and ramping up for the next iteration this fall [Spring 2021 - present]</li>
+<li>🌱 Learning about neuroscience, analog computing, and distributed systems</li>
+<li>⚙️ Check out my <a href="/projects">projects</a>!</li>
+</ul>
+<h2 id="previously">Previously..</h2>
+<ul>
+<li>Scaled hardware factory testing at a neurotech startup, <a href="https://thinkhumm.com/">HUMM</a> [Summer 2021]</li>
+<li>Teaching:
+<ul>
+<li>TA’d the largest electrical engineering course on campus, <a href="https://www.eecs16b.org/">EECS 16B</a> [Fall 2021, Spring 2022]</li>
+<li>Lead a mentoring section for a small group of student taking <a href="https://www.eecs16a.org/">EECS 16A</a> as a part of <a href="https://csmentors.berkeley.edu/">Computer Science Mentors</a> [Spring 2021]</li>
+<li>Taught an introductory Python course as a part of <a href="https://codeinplace.stanford.edu/">Code In Place</a> [Spring 2021]</li>
+</ul>
+</li>
+<li>Did contract writing for <a href="https://www.demidec.com/newdemidec/">DemiDec Resources</a> preparing study materials for Academic Decathlon participants [Summer 2020]</li>
+<li>🪂 Jumped out of a plane before finals week</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>📬 I absolutely love meeting new people, so if you would like to chat about anything or give me book recommendations, the best way to reach me is through <a href="mailto:ing4@berkeley.edu">ing4 [at] berkeley.edu</a> or any of the links below:</li>
+</ul>
+
+                </div>
+            </article>
+            <div style="text-align: center;"><div class="social-icons">
+    <a href="https://github.com/ingazhur" target="_blank" rel="noopener noreferrer me" title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://www.linkedin.com/in/inga-zhuravleva/" target="_blank" rel="noopener noreferrer me" title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
+    <a href="https://twitter.com/ingarobotics" target="_blank" rel="noopener noreferrer me" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+    </a>
+    <a href="mailto:ing4@berkeley.edu" target="_blank" rel="noopener noreferrer me" title="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
+</div>
+</div>
+        </main>
+
+        
+    </div>
+</div>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="http://example.org/">My New Hugo Site</a></span>
+    <span>&copy; 2022 <a href="/">Inga Zhuravleva</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

@@ -2,10 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/about/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>/headline/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/projects/badge/</loc>
+  </url><url>
+    <loc>/projects/cansat2016/</loc>
+  </url><url>
+    <loc>/projects/cansat2017/</loc>
+  </url><url>
+    <loc>/projects/cansat2018/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/projects/card/</loc>
+  </url><url>
+    <loc>/projects/copter/</loc>
+  </url><url>
+    <loc>/projects/robot1/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/projects/robot2/</loc>
+  </url><url>
+    <loc>/projects/eog/</loc>
+  </url><url>
+    <loc>/projects/</loc>
+  </url><url>
+    <loc>/projects/hat/</loc>
+  </url><url>
+    <loc>/projects/remote/</loc>
+  </url><url>
+    <loc>/projects/sixt33n/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/projects/wall-climber/</loc>
   </url>
 </urlset>

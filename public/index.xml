@@ -1,10 +1,137 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Inga Zhuravleva</title>
+    <link>/</link>
+    <description>Recent content on Inga Zhuravleva</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/headline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/headline/</guid>
+      <description>My name is Inga, and I am a rising junior at UC Berkeley studying Electrical Engineering &amp;amp; Computer Science. I am a hardware hacker curious about wearable devices, machine learning, and the future of human-computer interaction using brain-computer interfaces.
+I was born and raised in Russia, but I moved to the United States right in the middle of high school. Having lived in a cradle of Russian cosmonautics, I&amp;rsquo;ve been visiting the mission control center, museums of space history, and pavilions with real-sized rockets since young age.</description>
+    </item>
+    
+    <item>
+      <title>Cal Hacks 8.0 badge</title>
+      <link>/projects/badge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/badge/</guid>
+      <description>&lt;p&gt;Interactive conference badge assembled by hackathon workshop attendees&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CanSat 2016</title>
+      <link>/projects/cansat2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cansat2016/</guid>
+      <description>&lt;p&gt;Atmospheric probe with sensors and a mechanism for spreading mustard seeds&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CanSat 2017</title>
+      <link>/projects/cansat2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cansat2017/</guid>
+      <description>&lt;p&gt;Atmospheric probe with sensors capable of measuring soil resistance and temperature upon landing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CanSat 2018</title>
+      <link>/projects/cansat2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cansat2018/</guid>
+      <description>&lt;p&gt;1 kg version of an atmospheric probe with sensors and a custom-designed spectrometer&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact card</title>
+      <link>/projects/card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/card/</guid>
+      <description>&lt;p&gt;Contact PCB card with NFC chip and an LED&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CopterHack 2018</title>
+      <link>/projects/copter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/copter/</guid>
+      <description>&lt;p&gt;Autonomous drone assembled and programmed in a weekend during a hackathon&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>delivery robot</title>
+      <link>/projects/robot1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/robot1/</guid>
+      <description>&lt;p&gt;Remote-controlled robot with object-grasping capabilities&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>line-follower robot</title>
+      <link>/projects/robot2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/robot2/</guid>
+      <description>&lt;p&gt;Autonomous line-follower robot capable of obstacle avoidance&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PCB for recording EOG signals</title>
+      <link>/projects/eog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/eog/</guid>
+      <description>&lt;p&gt;Analog front end (AFE) circuit tuned for recording electrooculogram (EOG) signals&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi hat</title>
+      <link>/projects/hat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/hat/</guid>
+      <description>&lt;p&gt;Add-on module for Raspberry Pi to support a system for autonomous testing of multiple boards&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Remote control</title>
+      <link>/projects/remote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/remote/</guid>
+      <description>&lt;p&gt;Remote control module built from scratch&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SIXT33N on Mars</title>
+      <link>/projects/sixt33n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sixt33n/</guid>
+      <description>&lt;p&gt;SP 2021 TI Design contest submission, 1st Place&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wall climber</title>
+      <link>/projects/wall-climber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/wall-climber/</guid>
+      <description>&lt;p&gt;Final project for an engineering design course I took my senior year of high school&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
