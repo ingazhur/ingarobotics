@@ -1,6 +1,6 @@
 ## Currently..
 - 🏫 Studying at UC Berkeley with a major in Electrical Engineering & Computer Science (graduating May 2024)
-- 🛠️ Hardware engineering intern at Amazon Lab 126 [Summer 2022 - present]
+- 💬 Working on speech synthesis BCIs in [Berkeley AI Research](https://bair.berkeley.edu/) (BAIR) lab as a part of [Berkeley Speech Group](https://berkeley-speech-group.github.io/gopala/)
 - 🧠 Leading Devices division at [Neurotech@Berkeley](https://neurotech.berkeley.edu/) to explore new ways to interact with technology using non-invasive BCIs [Spring 2022 - present]
 - 🤖 Exploring machine learning with [ML@Berkeley](https://ml.berkeley.edu/) [Spring 2022 - present]
 - 💻 Organizing the largest collegiate hackathon [Cal Hacks](https://calhacks.io/) and ramping up for the next iteration this fall [Spring 2021 - present]
@@ -8,7 +8,9 @@
 - ⚙️ Check out my [projects](/projects)!
 
 ## Previously..
-- Scaled hardware factory testing at a neurotech startup, [HUMM](https://thinkhumm.com/) [Summer 2021]
+- Industry experience:
+-   Hardware engineering intern at Amazon Lab 126 [Summer 2022]
+-   Scaled hardware factory testing at a neurotech startup, [HUMM](https://thinkhumm.com/) [Summer 2021]
 - Teaching:
     - TA’d the largest electrical engineering course on campus, [EECS 16B](https://www.eecs16b.org/) [Fall 2021, Spring 2022]
     - Lead a mentoring section for a small group of student taking [EECS 16A](https://www.eecs16a.org/) as a part of [Computer Science Mentors](https://csmentors.berkeley.edu/) [Spring 2021]
