@@ -5,7 +5,7 @@
 - 🤖 Exploring machine learning with [ML@Berkeley](https://ml.berkeley.edu/) [Spring 2022 - present]
 - 💻 Organizing the largest collegiate hackathon [Cal Hacks](https://calhacks.io/) and ramping up for the next iteration this fall [Spring 2021 - present]
 - 🌱 Learning about neuroscience, analog computing, and distributed systems
-- ⚙️ Check out my [projects](/projects)!
+- Check out my [projects](/projects)!
 
 ## Previously..
 - Industry experience:
