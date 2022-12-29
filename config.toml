@@ -1,4 +1,4 @@
-baseURL = 'ingarobotics.com'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Inga Zhuravleva'
 theme = ['PaperMod']
